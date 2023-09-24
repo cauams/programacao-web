@@ -1,0 +1,20 @@
+body {
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nr-input {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.btn-container {
+    margin-left: 6px;
+    margin-top: 10px;
+}
