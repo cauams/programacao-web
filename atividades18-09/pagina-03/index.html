@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina 03</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <label for="counter">Contador:</label>
+        <div id="counter"></div>
+
+        <ul>
+            <li onclick="showFood('Pizza')">Pizza</li>
+            <li onclick="showFood('Pastel')">Pastel</li>
+            <li onclick="showFood('Macarrao')">Macarrao</li>
+            <li onclick="showFood('Cookies')">Cookies</li>
+            <li onclick="showFood('Farofa')">Farofa</li>
+        </ul>
+    </div>
+
+    <div class="colorful">
+        <h3>essa e uma div que troca de cor</h3>
+    </div>
+
+    <div class="table-container">
+        <table>
+        <tr>
+            <td onclick="changeColor(this)">1</td>
+            <td onclick="changeColor(this)">2</td>
+            <td onclick="changeColor(this)">3</td>
+        </tr>
+        <tr>
+            <td onclick="changeColor(this)">4</td>
+            <td onclick="changeColor(this)">5</td>
+            <td onclick="changeColor(this)">6</td>
+        </tr>
+        <tr>
+            <td onclick="changeColor(this)">7</td>
+            <td onclick="changeColor(this)">8</td>
+            <td onclick="changeColor(this)">9</td>
+        </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

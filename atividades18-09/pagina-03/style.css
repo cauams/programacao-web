@@ -1,0 +1,37 @@
+body{ width: 100%; }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#counter {
+    margin-left: 4px;
+}
+
+ul {
+    justify-content: flex-start;
+}
+
+.colorful {
+    background-color: blue;
+    color: white;
+    display: grid;
+    place-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 40,40,40,40;
+    padding: 40, 40,40,40;
+}
+
+.colorful:hover {
+    background-color: red;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    margin: 20,20,20,20;
+    border:  1px solid black;
+}
